@@ -15,7 +15,6 @@
  */
 
 (function(karma, System) {
-    System.config({ baseURL: 'base' });
 
     // Prevent immediately starting tests.
     window.__karma__.loaded = function() {
